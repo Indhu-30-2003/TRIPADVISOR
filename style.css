@@ -760,3 +760,101 @@ margin-left: 30px;
 
 }
 
+@media screen  and (max-width:500px){
+    body{
+        font-size: 7px;
+        overflow-x: hidden;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        width:400px;
+        position: static;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        
+    }
+    .searchbar{
+        display: none;
+    }
+    .navbar__sec3{
+        display: none;
+    }
+    .navbar__sec1__heading{
+        margin-top: 10px;
+    }
+    .mobile{
+        display:none;
+
+    }
+    .background{
+        width:350px;
+        height: 400px;
+    }
+    .back{
+        display:block;
+        height: 100px;
+        width:100px;
+        margin-left: 150px;
+    }
+    .imagecontent p{
+        font-size: 8px;
+    }
+    .love{
+        width:370px; 
+    }
+    .wanderer{
+       width:370px;
+       height:200px; 
+    }
+    .wi1{
+        width:100px;
+        height:100px;
+    }
+    .wi2{
+        height: 20px;
+        width: 20px;
+    }
+    .wanderer__des{
+        width:100px;
+        height:100px;
+        margin-top: 10px;
+        margin-left: 0;
+        line-height: 13px;
+    }
+    .wanderer__des__button{
+        margin-left: 6px;
+    }
+    .awards{
+        width:300px;
+       height:300px;
+    }
+    .awards__sec1 img{
+           height:20px;
+           width:20px;
+    }
+    .awards__sec1{
+        height:200px;
+        width:100px;
+        margin-left: 20px;
+
+    }
+    .Home_rentals__des{
+        display:none;
+    }
+    .awards{
+        display:none;
+    }
+    .footer{
+        width:370px;
+        height:500px
+    }
+    .footer__sec2 , .footer__sec3{
+        display:none;
+    }
+    
+}
+
+
