@@ -760,7 +760,7 @@ margin-left: 30px;
 
 }
 
-@media screen  and (max-width:500px){
+@media screen  and (max-width:600px){
     body{
         font-size: 7px;
         overflow-x: hidden;
@@ -774,7 +774,8 @@ margin-left: 30px;
     .navbar{
         display: flex;
         align-items: center;
-        width: 500px;
+        width: 430px;
+        background-color: white;
         
     }
     .searchbar{
@@ -791,7 +792,7 @@ margin-left: 30px;
 
     }
     .background{
-        width:500px;
+        width:430px;
         height: 400px;
     }
     .back{
@@ -804,24 +805,24 @@ margin-left: 30px;
         font-size: 8px;
     }
     .love{
-        width:370px; 
+        width:430px; 
     }
     .list__container{
-        width:500px;
+        width:430px;
     }
     .tour__name__photos{
-        width:500px;
+        width:430px;
     }
     .container_img{
-        width:500px;
+        width:430px;
     }
     .wanderer{
-       width:370px;
+       width:400px;
        height:200px; 
     }
     .wi1{
         width:200px;
-        height:200px;
+        height:170px;
     }
     .wi2{
         height: 20px;
@@ -838,7 +839,7 @@ margin-left: 30px;
         margin-left: 6px;
     }
     .Home_rentals__container{
-        width:500px;
+        width:430px;
     }
     .awards{
         width:300px;
@@ -861,8 +862,8 @@ margin-left: 30px;
         display:none;
     }
     .footer{
-        width:500px;
-        height:500px
+        width:430px;
+        height:400px
     }
     .footer__sec2 , .footer__sec3{
         display:none;
