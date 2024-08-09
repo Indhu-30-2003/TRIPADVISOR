@@ -1,0 +1,739 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.navbar {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+
+.navbar__sec1 {
+    display: flex;
+}
+
+.navbar__sec1 img {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar__sec2 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar__sec2 p {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar__sec2__odd:hover {
+    background-color: rgb(219, 217, 217);
+    border-radius: 32px;
+
+}
+
+.navbar__sec2__even:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.navbar__sec3 {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__sec3__INR img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+
+}
+
+.navbar__sec3__INR {
+    display: flex;
+    padding: 5px;
+    border-radius: 32px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navbar__sec3__INR:hover {
+    background-color: rgb(219, 217, 217);
+
+}
+
+.navbar__sec3__signin {
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar__sec4 {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+
+
+.navbar__sec4 input {
+    width: 350px;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.navbar__sec4 input:focus {
+    outline: none;
+}
+
+.Whereto {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width:100%;
+}
+
+.list1 img {
+    height: 20px;
+    width: 20px;
+}
+
+.list1 {
+    display: flex;
+    gap: 4px;
+    padding: 10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.list {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    position: sticky;
+    top: 50px;
+    z-index: 1;
+}
+
+.list1:hover {
+    border-bottom: 2px solid black;
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.searchbar {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 250px;
+   
+    border: 1px solid lightslategray;
+    border-radius: 32px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+   
+
+
+}
+
+.searchbar input {
+    width: 500px;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+
+
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbutton {
+    background-color: rgb(8, 167, 137);
+    padding: 10px;
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 20px;
+
+
+
+}
+.back{
+    display:none;
+}
+
+.mobile {
+    z-index: 1;
+    width: 1000px;
+    height: 500px;
+}
+
+.imagecontent {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+}
+
+.imagecontent h2 {
+    font-size: 40px;
+}
+
+.imagecontent p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.adventure__name {
+
+    padding: 20px;
+}
+
+.adventure__name p {
+    padding-top: 20px;
+}
+
+.adventure__list {
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 20px;
+    position: relative;
+
+
+
+}
+
+.adventure__list:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.adventure__list img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.adventure__list img:hover {
+    opacity: 0.8;
+}
+
+.list__container {
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.list__container::-webkit-scrollbar {
+    width: 0;
+}
+
+.adventure__list__description {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.345);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tour__name h2 {
+    padding: 20px;
+}
+
+.tour__name p {
+    margin-top: 5px;
+    padding-left: 20px;
+
+}
+
+.tour__name__photos {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 10px;
+
+}
+
+.tour__name__photos::-webkit-scrollbar {
+    width: 0;
+}
+
+.pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+.photos {
+    width: 400px;
+    height: 380px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.like {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+
+}
+
+
+.photos h4 {
+    padding: 5px;
+}
+
+.photos p {
+    padding: 5px;
+}
+
+.photos:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.photos img:hover {
+    opacity: 0.8;
+}
+
+.love {
+    background-color: rgba(255, 182, 193, 0.74);
+
+    height: 400px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.explore_heading h3 {
+    padding: 30px
+}
+
+.explore_heading__img {
+    height: 420px;
+    width: 450px;
+
+}
+
+.explore_heading__img img {
+    height: 250px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.explore_heading__img h3 {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+    text-align: center;
+}
+
+.container_img {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.container_img::-webkit-scrollbar {
+    width: 0;
+}
+
+.wanderer {
+    height: 700px;
+    width: 1150px;
+    background-color: rgba(255, 182, 193, 0.473);
+    margin-top: 20px;
+    display: flex;
+}
+
+.wi1 {
+    height: 660px;
+    width: 600px;
+    padding: 20px;
+}
+.wi2{
+    height: 40px;
+    width:40px;
+}
+.wanderer__des{
+    text-align: center;
+    padding:20px;
+    margin-top:230px;
+    line-height: 30px;
+}
+.wanderer__des__button{
+    background-color: black;
+    color:white;
+    width:100px;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.Home_rentals{
+    height:350px;
+    margin-top: 30px;
+    
+
+}
+.Home_rentals__des{
+    height: 300px;
+    width:400px;
+    line-height: 30px;
+   
+}
+.Home_rentals__des p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.Home_rentals__container{
+    display: flex;
+}
+
+
+.Home_rentals__img__des img{
+    height: 270px;
+    width:300px;
+    border-radius: 20px;
+
+}
+.Home_rentals__img__des{
+    border-radius: 20px;
+    gap:20px;
+    margin-left: 20px;
+    padding:10px;
+    
+}
+.Home_rentals__img{
+    overflow-x: scroll;
+    display:flex;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+.Home_rentals__img::-webkit-scrollbar {
+    width: 0;
+}
+.Home_rentals__img__des:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.awards{
+    height: 600px;
+    width: 1170px;
+    height: 500px;
+   
+    margin-top: 70px;
+    background-color: rgba(233, 150, 122, 0.443);
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.awards__container{
+    height: 600px;
+    width: 1000px;
+    display: flex;
+
+}
+.awards__sec1{
+    height: 400px;
+    width:700px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.awards__sec1 img{
+    height:100px;
+    width:100px;
+}
+.awards__sec1 h3{
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding:10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.toursim_img{
+    height:550px;
+    width:500px;
+    padding:20px;
+    rotate: -10deg;
+    
+}
+.toursim_img img{
+    border-radius: 20px;
+    height:400px;
+    width:500px;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+.footer{
+    height: 600px;
+    width: 1170px;
+    height: 500px;
+   
+    margin-top: 70px;
+    background-color: rgba(233, 150, 122, 0.265);
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer__sec1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.footer__sec1__part1 , .footer__sec1__part2 , .footer__sec1__part3 , .footer__sec1__part4{
+    padding:20px;
+    line-height: 30px;
+}
+.footer__sec2{
+    height:100px;
+    width:1000px;
+    display: flex;
+}
+.footer__sec2__part1{
+    height:100px ;
+    width:100px;
+    padding: 20px;
+
+}
+.footer__sec2__part1 img{
+    height:60px ;
+    width:60px; 
+    padding-left: 20px; 
+    padding-top: 10px;
+}
+.footer__sec2__part2__bottom{
+    display:flex;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    width:600px;
+    justify-content:flex-start;
+    padding-left: 10px;
+    padding-top:10px ;
+    line-height: 10px;
+    gap:20px;
+}
+.footer__sec2__part2__bottom p:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.footer__sec2__part2__top{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.footer__sec2__part3{
+    display: flex;
+    gap:10px;
+}
+.footer__sec2__part3 select{
+   height: 40px;
+   width:170px;
+   padding:10px;
+border-radius: 20px; 
+margin-top: 30px; 
+margin-left: 30px;
+}
+.footer__sec3{
+    display:flex;
+    margin-top: 30px;
+}
+.footer__sec3__left{
+    width:700px;
+    margin-left: 40px;
+}
+.footer__sec3__right{
+    display: flex;
+    margin-left: 250px;
+
+}
+.footer__sec3__right i{
+    width:30px;
+    height: 30px;
+}
+
+@media screen  and (max-width:800px){
+    body{
+        font-size: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        width:100%;
+    }
+    .mobile{
+        display:none;
+    }
+    .searchbar{
+        width:600px;
+        margin-left: 0;
+        margin-right: 0;
+        position: static;
+        
+    }
+    .background{
+        width:600px;
+    }
+    .back{
+        width:300px;
+        height:170px;
+        display: block;
+        margin-left: 100px;
+        
+    }
+    .wanderer{
+        display:none;
+    }
+       
+    
+}
+
+
+ @media screen and (max-width:600px){
+    .navbar{
+        width:100%;
+        display: flex;
+        align-items: center;
+
+        
+    }
+    .navbar__sec1 img{
+        height: 30px;
+        width: 30px;
+    }
+    .navbar__sec2{
+        display: none;
+    }
+    
+    .searchbar{
+        display:none;
+    }
+    .navbar__sec3__signin{
+        padding:5px;
+        border-radius: 10px;
+        display: inline-block;
+        height:10px;
+        margin-top:10px;
+    }
+    .list{
+        width:500px;
+        display:flex;
+        flex-wrap: wrap;
+        position:static;
+    }
+    .list1 p{
+        margin-top: 5px;
+    }
+    .background {
+        width:100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .background img{
+        
+    }
+
+
+}
