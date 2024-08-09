@@ -764,6 +764,7 @@ margin-left: 30px;
     body{
         font-size: 7px;
         overflow-x: hidden;
+        margin-left: 40px;
     }
     .list{
         display: flex;
@@ -870,6 +871,8 @@ margin-left: 30px;
     }
     .Whereto{
         font-size: 10px;
+        text-align: center;
+        margin-left: 0;
     }
     
 }
